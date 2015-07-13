@@ -14,6 +14,7 @@
 		3A2740701B532E3100103493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A27406F1B532E3100103493 /* Images.xcassets */; };
 		3A2740731B532E3100103493 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2740711B532E3100103493 /* LaunchScreen.xib */; };
 		3A27407F1B532E3100103493 /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A27407E1B532E3100103493 /* testProjectTests.m */; };
+		3A2740891B533CC900103493 /* SomeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2740881B533CC900103493 /* SomeTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3A2740781B532E3100103493 /* testProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A27407D1B532E3100103493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A27407E1B532E3100103493 /* testProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectTests.m; sourceTree = "<group>"; };
+		3A2740881B533CC900103493 /* SomeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				3A27407E1B532E3100103493 /* testProjectTests.m */,
 				3A27407C1B532E3100103493 /* Supporting Files */,
+				3A2740881B533CC900103493 /* SomeTest.m */,
 			);
 			path = testProjectTests;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A27407F1B532E3100103493 /* testProjectTests.m in Sources */,
+				3A2740891B533CC900103493 /* SomeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +422,7 @@
 				3A2740841B532E3100103493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A2740851B532E3100103493 /* Build configuration list for PBXNativeTarget "testProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				3A2740871B532E3100103493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
