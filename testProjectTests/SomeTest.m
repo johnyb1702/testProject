@@ -35,4 +35,36 @@
     XCTAssert(YES, @"Pass");
 }
 
+- (void)testExample3 {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testExample4 {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testExample5 {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testExample6 {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testExampl7 {
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testExample8 {
+    // This is an example of a functional test case.
+
+#warning some waning
+}
+
+
 @end
